@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fearful Symetry</title>
+
+	<script src="assets/p5.js"></script>
+	<script src="assets/p5.sound.js"></script>
+
+	<script src="heart.js"></script>
+
+	<!-- CSS styling for "back to gallery" button, remove scrollbars -->
+	<style>
+	 body {
+	   padding: 0;
+	   margin: 0;
+	   overflow: hidden;
+	 }
+	 nav {
+	   position: absolute;
+	   font-size: 24px;
+	   color: #eee;
+	   background-color: #222;
+	   padding: 20px;
+	   opacity: 0.5;
+	   transition: opacity 0.3s;
+	   font-family: sans-serif;
+	 }
+	 nav > a {
+	   color: #eee;
+	   text-decoration: none;
+	 }
+	 nav:hover {
+	   opacity: 1;
+	 }
+	</style>
+  </head>
+
+  <body>
+	<nav id="gallery" style="bottom: 0; right: 0;"><a href="https://cs.anu.edu.au/courses/comp1720/showcase/2020/">back to gallery</a></nav>
+	<nav id="menu" style="top: 0; left: 0;"><a href="index.html">menu</a></nav>
+  </body>
+
+</html>
+
+
